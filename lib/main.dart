@@ -11,12 +11,12 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: Column(
-          children: [
-            Text("Hello World from main branch"),
-          ],
-        )
-      ),
+          body: Column(
+        children: [
+          Text("Hello World from main branch"),
+          Text("Some new development from develop branch"),
+        ],
+      )),
     );
   }
 }
