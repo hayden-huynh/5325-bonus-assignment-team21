@@ -15,6 +15,7 @@ class MainApp extends StatelessWidget {
         children: [
           Text("Hello World from main branch"),
           Text("Some testing from test branch"),
+          Text("Some new development from develop branch"),
         ],
       )),
     );
