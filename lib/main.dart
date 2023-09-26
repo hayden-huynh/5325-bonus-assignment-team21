@@ -14,6 +14,7 @@ class MainApp extends StatelessWidget {
         body: Column(
           children: [
             Text("Hello World from main branch"),
+            Text("Some new development from develop branch"),
           ],
         )
       ),
